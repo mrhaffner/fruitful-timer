@@ -8,4 +8,5 @@ const TagsScreen = () => {
     </View>
   );
 };
+
 export default TagsScreen;

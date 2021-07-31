@@ -2,12 +2,12 @@ import 'react-native-gesture-handler';
 import React from 'react';
 import { Provider as PaperProvider } from 'react-native-paper';
 import { NavigationContainer } from '@react-navigation/native';
-import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
+import { createMaterialBottomTabNavigator } from '@react-navigation/material-bottom-tabs';
 import SummaryScreen from './screens/SummaryScreen';
 import TagsScreen from './screens/TagsScreen';
 import TimerScreen from './screens/TimerScreen';
 
-const Tab = createBottomTabNavigator();
+const Tab = createMaterialBottomTabNavigator();
 
 const App = () => {
   return (
